@@ -20,6 +20,7 @@ function App() {
             <Route path="/">
               <Route index element={<Home />} />
             </Route>
+
           </Routes>
         </BrowserRouter>
       </div>
