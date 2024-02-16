@@ -1,0 +1,49 @@
+.Footer {
+  width: 100%;
+  height: 30vh;
+  background-color: #000000;
+  color: #fff;
+}
+
+.Footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.quick-links,
+.logo-section {
+  margin: 5vh 7vh;
+}
+
+.quick-links .item {
+  font-size: 15px;
+  padding: 7px 0;
+  list-style-type: none;
+  color: #aaa;
+}
+
+.logo-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  min-width: 200px;
+  min-height: 200px;
+  border: 1px solid #fff;
+}
+
+.minilogo-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.minilogo {
+  min-width: 25px;
+  min-height: 25px;
+}
