@@ -1,0 +1,41 @@
+.navbar{
+    position: sticky;
+    top: 0;
+    display: flex;
+    margin-top: -80px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+nav{
+    text-align: end;
+    background: transparent;
+}
+ nav:hover > .nav_elem{
+    opacity: 0.3;
+ }
+ nav:hover > .nav_elem:hover{
+    opacity: 1;
+ }
+.nav_elem{
+    font-size:28px; 
+    color:rgb(197, 197, 197);
+    text-decoration: none;
+    margin:0 .5rem;
+    background: transparent;
+
+}
+.nav_elem:hover{
+    cursor: pointer;
+}
+
+.nav_elem:active{
+    color:rgb(0, 40, 76);
+}
+
+
+.logo{
+    background: transparent;
+}
