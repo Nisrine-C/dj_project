@@ -2,8 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: League Spartan;
-  font-weight: 700;
+  font-family: "Sofia Sans Semi Condensed";
+  font-weight: normal;
+  scroll-behavior: smooth;
 }
 
 a:link,

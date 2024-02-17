@@ -11,9 +11,7 @@ function App() {
   return (
     
     <div className="App">
-      <div className="header">
-        <Navbar/>
-      </div>
+      <Navbar/>
       <div className="main">
         <BrowserRouter>
         <Routes>
@@ -23,9 +21,7 @@ function App() {
           </Routes>
         </BrowserRouter>
       </div>
-      <div className="footer">
       <Footer/>
-      </div>
     </div>
   );
 }
