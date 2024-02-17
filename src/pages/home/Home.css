@@ -42,10 +42,10 @@
     z-index: 200;
 }
 .quote span{
-   font-weight:bold;
+   font-weight:400;
 }
 .quote p{
-    font-weight:lighter;
+    font-weight:200;
     padding:20px 0;
  }
 .container {

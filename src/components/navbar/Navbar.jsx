@@ -5,14 +5,15 @@ const Navbar = () => {
     return (
       <div className="navbar">
         <a href="/" className="logo" >
-          <img src="./logo.svg" alt="logo"></img>
+          <span>THE WEDDING DJ</span>
+          <img src="" alt=""></img>
           </a>
         <nav>
-          <a className="nav_elem" href="/" >Home</a>
-          <a className="nav_elem" href="/calendar" >Calendar</a>
-          <a className="nav_elem" href="/pricing" >Pricing </a>
-          <a className="nav_elem" href="/contact" >Contact us</a>
-          <a className="nav_elem" href="/about" >About me</a>
+          <a className="nav_elem" href="/" >HOME</a>
+          <a className="nav_elem" href="/calendar" >CALENDAR</a>
+          <a className="nav_elem" href="/pricing" >PRICING</a>
+          <a className="nav_elem" href="/contact" >CONTACT US</a>
+          <a className="nav_elem" href="/about" >ABOUT ME</a>
         </nav>
       </div>
     );
