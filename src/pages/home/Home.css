@@ -51,7 +51,7 @@
   background: white;
 }
 
-.container_CTA{
+.container_CTA {
   position: relative;
   z-index: 2;
   align-items: start;
@@ -63,7 +63,7 @@
   width: 100%;
   height: 50dvh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
-    url("C:\Users\HP\Documents\GitHub\dj_project\public\Assets\pexels-emma-bauso-2253867.jpg");
+    url("C:\Users\DELL\OneDrive\Documents\GitHub\dj_project\public\Assets\pexels-emma-bauso-2253867.jpg");
   background-size: cover;
   margin-bottom: 5vh;
 }

@@ -19,28 +19,11 @@ const Home = () => {
       <div className="container">
         <SectionAboutArtist />
       </div>
-      <div className="CTA-Section">
-        <div className="CTA-intro">
-          <div className="CTA-head">Lorem ipsum dolor sit.</div>
-          <div className="CTA-pg">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam
-            iusto aliquam cumque laborum dolorum molestiae unde odit odio eius
-            dolore esse beatae, sed alias sint quisquam inventore accusamus,
-            facilis maiores sunt neque culpa, libero quam similique. Odit,
-            sapiente temporibus?.
-          </div>
-        </div>
-        <div className="quote">
-          <span>I AM</span>
-          <p>
-            PASSIONATE ABOUT DELIVERING PROFESSIONAL AND FUN ENTERTAINMENT ON
-            YOUR WEDDING DAY!
-          </p>
-        </div>
-      </div>
+
       <div className="container">
-        <SectionAboutArtist />
+        <div className="testimonial-Setion"></div>
       </div>
+
       <div className="container_CTA">
         <div className="CTA-Section">
           <div className="CTA-intro">
