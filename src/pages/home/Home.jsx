@@ -19,7 +19,7 @@ const Home = () => {
       <div className="container">
         <SectionAboutArtist />
       </div>
-      <div className="container_CTA">
+      <div className="container">
         <div className="CTA-Section">
           <div className="CTA-intro">
             <div className="CTA-head">Lorem ipsum dolor sit.</div>

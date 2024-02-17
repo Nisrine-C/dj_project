@@ -1,21 +1,46 @@
 .section-about-artist{
-    height:fit-content;
+    height:500px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns:  1fr 1fr .6fr;
     grid-template-areas:
-    "images1 images1 paragraph paragraph images2 images2";
+    "images1 paragraph images2";
+    grid-column-gap:4px;
 }
 
 .images_1{grid-area: images1;position:relative;}
 .paragraph{grid-area:paragraph}
 .images_2{grid-area: images2;}
 
+
+.paragraph h6{
+    font-size: 45px;
+    font-family:"Parisienne";
+}
+
+.paragraph p{
+    font-size: 24px;
+    font-family:"Lato";
+    letter-spacing:2px;
+    margin-top:35px;
+    margin-left:5px
+}
+
 .images_1 .img_1,
 .images_1 .img_2{
-    height:437px;
-    width:389px;
     background-color: gray;
     position: absolute;
-    top: 0;
-    left: 0;
+    z-index:3;
+}
+
+.images_1 .img_1{
+    top:-10px;right:280px;
+    rotate:7deg ;
+    width:300px;
+    height:400px;
+}
+
+.images_1 .img_2{
+    top:70px;right:40px;
+    height:390px;
+    width:320px;
 }
