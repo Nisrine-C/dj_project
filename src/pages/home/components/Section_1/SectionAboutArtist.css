@@ -8,8 +8,8 @@
 }
 
 .images_1{grid-area: images1;position:relative;}
-.paragraph{grid-area:paragraph}
-.images_2{grid-area: images2;}
+.paragraph{grid-area:paragraph;}
+.images_2{grid-area: images2;position: relative;overflow-x:hidden;}
 
 
 .paragraph h6{
@@ -32,6 +32,13 @@
     z-index:3;
 }
 
+.images_2 .img_1,
+.images_2 .img_2{
+    background-color: gray;
+    position: absolute;
+    z-index:3;
+}
+
 .images_1 .img_1{
     top:-10px;right:280px;
     rotate:7deg ;
@@ -43,4 +50,16 @@
     top:70px;right:40px;
     height:390px;
     width:320px;
+}
+
+.images_2 .img_1{
+    top:35px;left:80px;
+    width:299px;
+    height:350px;
+}
+
+.images_2 .img_2{
+    bottom:40px;left:20px;
+    height:290px;
+    width:240px;
 }

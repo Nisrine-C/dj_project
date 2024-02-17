@@ -19,7 +19,8 @@ const Home = () => {
       <div className="container">
         <SectionAboutArtist />
       </div>
-
+      <div className="hr_div">
+        <hr/> </div>
       <div className="container-test">
         <div className="test-header">
           Kind Words from <br />
