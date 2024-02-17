@@ -1,0 +1,53 @@
+.navbar{
+    position: absolute;
+    top: 0;
+    left:0;
+    display:flex;
+    width:100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1000;
+    height:100px;
+}
+
+nav{
+    text-align: end;
+    background: transparent;
+    
+}
+ nav:hover > .nav_elem{
+    opacity: 0.3;
+    font-size: 18px;
+    transition:500ms;
+ }
+ nav:hover > .nav_elem:hover{
+    opacity: 1;
+    font-size: 18px;
+    transition:500ms;
+ }
+.nav_elem{
+    font-family: "Sofia Sans Semi Condensed" !important;
+    font-weight:bold;
+    margin:5px 20px !important;
+    font-size:16px;
+    color:rgb(197, 197, 197);
+    text-decoration: none;
+    margin:0 .5rem;
+    background: transparent;
+    transition:500ms;
+
+}
+.nav_elem:hover{
+    cursor: pointer;
+}
+
+.nav_elem:active{
+    color:rgb(0, 40, 76);
+}
+
+.navbar .logo{
+    color:white;
+    border:none;
+    min-width:0 !important;min-height:0 !important;
+}
