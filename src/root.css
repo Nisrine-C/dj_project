@@ -1,7 +1,14 @@
-*{
-    margin:0;padding:0;
-    box-sizing: border-box;
-    font-family: "Sofia Sans Semi Condensed";
-    font-weight: normal;
-    scroll-behavior: smooth
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sofia Sans Semi Condensed";
+  font-weight: normal;
+  scroll-behavior: smooth;
+}
+
+a:link,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}

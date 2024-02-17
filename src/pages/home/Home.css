@@ -1,57 +1,99 @@
-.Home{
- background:white;
- height:fit-content;
+.CTA-Section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url("C:\Users\DELL\OneDrive\Documents\GitHub\dj_project\public\Assets\pexels-emma-bauso-2253867.jpg");
+  background-size: cover;
+  margin-bottom: 5vh;
 }
 
-.hero{
-    height:125dvh;
+.CTA-intro {
+  display: flex;
+  width: 40%;
+  height: 50vh;
+  color: aliceblue;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px 10vh;
 }
-.background{
-    overflow: hidden;
-    z-index: 1;
-    height:80%; 
+.CTA-head {
+  font-size: 50px;
+  margin-bottom: 3vh;
+  font: bolder;
 }
-.background img{
-    width:100%;
-    overflow:hidden;
-    position: fixed;
-    top:0;
-    z-index: 0;
-    filter:grayscale(50%);
+.CTA-pg {
+  font-size: 25px;
+}
+.CTA-SideVideo {
+  width: 50%;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.CTA-Video {
+  width: 25vh;
+  height: 35vh;
+  border: 1px black solid;
+  background-color: grey;
+}
+.Home {
+  background: white;
+  height: fit-content;
+}
+
+.hero {
+  height: 125dvh;
+}
+.background {
+  overflow: hidden;
+  z-index: 1;
+  height: 80%;
+}
+.background img {
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  z-index: 0;
+  filter: grayscale(50%);
 }
 .background::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    pointer-events: none; 
-    z-index: 1;
-    background: rgba(0, 0, 0, 0.25 ) !important;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.25) !important;
 }
 
-.quote{
-    background-color: black;
-    position:relative;
-    height:250px;
-    color:white;
-    text-align:center;
-    font-size:32px;
-    padding: 25px 0;
-    z-index: 200;
+.quote {
+  background-color: black;
+  position: relative;
+  height: 250px;
+  color: white;
+  text-align: center;
+  font-size: 32px;
+  padding: 25px 0;
+  z-index: 200;
 }
-.quote span{
-   font-weight:400;
+.quote span {
+  font-weight: 400;
 }
-.quote p{
-    font-weight:200;
-    padding:20px 0;
- }
+.quote p {
+  font-weight: 200;
+  padding: 20px 0;
+}
 .container {
-    position:relative;
-    z-index: 2;
-    padding: calc(100% / 18) calc(100% / 8);
-    align-items:start;
-    background: white;
+  position: relative;
+  z-index: 2;
+  padding: calc(100% / 18) calc(100% / 8);
+  align-items: start;
+  background: white;
 }
