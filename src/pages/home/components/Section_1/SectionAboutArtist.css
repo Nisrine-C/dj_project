@@ -1,15 +1,21 @@
 .section-about-artist{
-    height:100dvh;
+    height:fit-content;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas:
-    "images1 images1 images1 paragraph . ."
-    ". . images2 images2 . ."
-    ". . . . . .";
+    "images1 images1 paragraph paragraph images2 images2";
 }
 
-.images_1{grid-area: images1;}
+.images_1{grid-area: images1;position:relative;}
 .paragraph{grid-area:paragraph}
 .images_2{grid-area: images2;}
 
+.images_1 .img_1,
+.images_1 .img_2{
+    height:437px;
+    width:389px;
+    background-color: gray;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
