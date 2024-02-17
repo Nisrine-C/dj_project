@@ -7,29 +7,29 @@ const Navbar = () => {
         <div className="quick-links">
           <ul>
             <li className="item">
-              <a href="/">Link 1</a>
+              <a href="/">Home</a>
             </li>
             <li className="item">
-              <a href="/">Link 2</a>
+              <a href="/">Calendar</a>
             </li>
             <li className="item">
-              <a href="/">Link 3</a>
+              <a href="/">Pricing</a>
             </li>
             <li className="item">
-              <a href="/">Link 4</a>
+              <a href="/">Contact us</a>
             </li>
             <li className="item">
-              <a href="/">Link 5</a>
+              <a href="/">About Me</a>
             </li>
             <li className="item">
-              <a href="/">Link 6</a>
+              <a href="/">FAQs</a>
             </li>
           </ul>
         </div>
 
         <div className="logo-section">
           <div className="logo">
-            <img src="src\components\footer\Assets\png1.png" alt="Logo" />
+            <img srcSet="Assets/new_logo_white_1.png" />
           </div>
 
           <div className="minilogo-section">

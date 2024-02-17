@@ -6,20 +6,53 @@ const Home = () => {
     <div className="Home">
       <div className="hero">
         <div className="background">
-          <img src="https://images.pexels.com/photos/2959192/pexels-photo-2959192.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"></img>
+          <img src="Assets\Hero.jpeg"></img>
         </div>
         <div className="quote">
           <span>I AM</span>
           <p>
             PASSIONATE ABOUT DELIVERING PROFESSIONAL AND FUN ENTERTAINMENT ON
-            YOUR WEDDING DAY!
+            YOUR BIG DAY!
           </p>
         </div>
       </div>
       <div className="container">
         <SectionAboutArtist />
       </div>
-      <div className="container">
+
+      <div className="container-test">
+        <div className="test-header">
+          Kind Words from <br />
+          Amazing people
+        </div>
+        <div className="testimonials">
+          <div className="test-arrow">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              fill="black"
+            >
+              <path d="M356.47,41c4.45,0,8.9,1.11,12.23,4.45a16.12,16.12,0,0,1,0,23.35L180.77,256.7,368.7,444.62A16.51,16.51,0,0,1,345.35,468l-199-199a16.12,16.12,0,0,1,0-23.35l199-200.15A14.28,14.28,0,0,1,356.47,41Z"></path>
+            </svg>
+          </div>
+
+          <div className="testimonial-Setion">
+            <div className="testimomial-1">
+              <div className="test1-picture">
+                <img src="Assets\test-pic.jpg" alt="" />
+              </div>
+              <div className="test1-word"></div>
+            </div>
+          </div>
+          <div className="test-arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <path d="M158.53,473c-4.45,0-8.9-1.11-12.23-4.45a16.12,16.12,0,0,1,0-23.35L334.23,257.25,146.3,69.33A16.51,16.51,0,0,1,169.65,46l199,199a16.12,16.12,0,0,1,0,23.35l-199,200.15A14.28,14.28,0,0,1,158.53,473Z"></path>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div className="container_CTA">
         <div className="CTA-Section">
           <div className="CTA-intro">
             <div className="CTA-head">Lorem ipsum dolor sit.</div>

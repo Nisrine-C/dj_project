@@ -1,11 +1,11 @@
 .Footer {
+  position: relative;
+  z-index: 2;
   width: 100%;
-  height: 30vh;
+  height: 35vh;
   background-color: #000000;
   color: #fff;
-  position:relative;
-  z-index:2;
-  height:fit-content;
+  padding: 0 10vh;
 }
 
 .Footer-content {
@@ -15,13 +15,14 @@
   height: 100%;
 }
 
-.quick-links,
-.logo-section {
-  margin: 5vh 7vh;
+.quick-links {
+  padding-right: 10vh;
+  width: 20%;
+  justify-items: left;
 }
 
 .quick-links .item {
-  font-size: 15px;
+  font-size: 20px;
   padding: 7px 0;
   list-style-type: none;
   color: #aaa;
@@ -33,10 +34,16 @@
   align-items: center;
 }
 
+.item a:visited {
+  color: inherit;
+}
+
 .logo {
-  min-width: 200px;
-  min-height: 200px;
-  border: 1px solid #fff;
+  max-width: 200px;
+  max-height: 190px;
+}
+.logo img {
+  width: 100%;
 }
 
 .minilogo-section {
