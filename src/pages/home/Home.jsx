@@ -2,6 +2,7 @@ import "./Home.css";
 import "./components/Section_2/Testimonials.css";
 import "./components/Section_3/CTA.css";
 import SectionAboutArtist from "./components/Section_1/SectionAboutArtist";
+import SectionGallery from "./components/Section_4/SectionGalley";
 
 const Home = () => {
   return (
@@ -11,7 +12,7 @@ const Home = () => {
           <img src="Assets\Hero.jpeg"></img>
         </div>
         <div className="quote">
-          <span>I AM</span>
+          <span>I am</span>
           <p>
             PASSIONATE ABOUT DELIVERING PROFESSIONAL AND FUN ENTERTAINMENT ON
             YOUR BIG DAY!
@@ -76,6 +77,10 @@ const Home = () => {
             <div className="CTA-Video"></div>
           </div>
         </div>
+      </div>
+
+      <div className="container">
+        <SectionGallery />
       </div>
     </div>
   );

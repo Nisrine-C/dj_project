@@ -1,0 +1,11 @@
+.section-gallery{
+    display:grid;
+    grid-template-columns: repeat(2,50%);
+    column-gap: 15px;
+    padding:0 calc(50%/8 ) calc(50%/8 ) calc(50%/8 );
+}
+
+.gallery-title{
+    margin-bottom:20px;
+    text-align: center;
+}
