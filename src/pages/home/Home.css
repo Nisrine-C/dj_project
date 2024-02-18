@@ -8,11 +8,13 @@
   background-color: white;
   position:relative;
   z-index:4;
+  padding-top: 30px
 }
 hr{
-  background:white;
-  color:black;
+  background:black;
+border: none;
   width:70%;
+  height:1px;
 }
 .hero {
   height: fit-content;
@@ -49,7 +51,7 @@ hr{
   color: white;
   text-align: center;
   font-size: 32px;
-  padding: 25px 0;
+  padding: 50px 0 25px 0;
   z-index: 200;
 }
 
