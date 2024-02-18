@@ -71,6 +71,6 @@
 }
 .test1-picture img {
   background-size: cover;
-  max-height: 300px;
-  max-width: 300px;
+  min-height: 275px;
+  min-width: 275px;
 }
