@@ -7,8 +7,9 @@
 .test-header {
   display: flex;
   font-size: 35px;
-  justify-content: end;
-  margin-right: 10vh;
+  justify-content: start;
+  margin-left: 20vh;
+  font-family: "Parisienne";
 }
 .testimonials {
   display: flex;
@@ -17,8 +18,33 @@
   justify-content: center;
 }
 .test-arrow {
+  display: flex;
+  flex-direction: row;
+  transition: 500ms;
+}
+.arrow {
   width: 5dvh;
-  max-height: 50px;
+  transition: 500ms;
+}
+
+.test-arrow a {
+  transform: rotate(-90deg);
+}
+
+.test-arrow:hover {
+  cursor: pointer;
+}
+
+.test-arrow:hover > .arrow:hover {
+  opacity: 0.3;
+  width: 7dvh;
+  transition: 500ms;
+}
+
+.test-arrow:hover > .arrow:hover {
+  opacity: 1;
+  width: 7dvh;
+  transition: 500ms;
 }
 
 .testimonial-place {
@@ -29,12 +55,21 @@
 .testimomial-3 {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   flex-direction: row;
 }
 
+.test1-word {
+  margin: 0 7vw;
+  font-size: 24px;
+  font-family: "Lato";
+}
+
+.test1-picture {
+  margin: 0 7vw;
+}
 .test1-picture img {
   background-size: cover;
-  max-height: 250px;
-  max-width: 250px;
+  max-height: 300px;
+  max-width: 300px;
 }
