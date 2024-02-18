@@ -57,16 +57,20 @@ border: none;
 
 .quote span {
   margin: 50px 0 0 0;
-  font-weight: 400;
+  font-family: "Parisienne";
+  font-weight: 500;
+  font-size: 32px;
 }
 .quote p {
   font-weight: 200;
   padding: 20px 0;
+  font-size: 34px;
+  margin :auto 0;
 }
 .container {
   position: relative;
   z-index: 2;
   align-items: center;
   background: white;
-  padding: calc(50% / 6) 0 0 0;
+  padding: calc(50% / 10) 0 0 0;
 }

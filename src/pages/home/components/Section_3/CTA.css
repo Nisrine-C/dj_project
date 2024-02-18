@@ -1,20 +1,19 @@
 .container_CTA {
   position: relative;
   z-index: 2;
-  height: 80dvh;
   background: white;
-  padding: calc(50% / 6) 0 0 0;
+  padding: calc(50% / 10) 0 0 0;
+  height:650px
 }
 
 .CTA-Section {
   display: flex;
   flex-direction: row;
-  height: 50dvh;
+  height:450px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
-    url("C:\Users\DELL\OneDrive\Documents\GitHub\dj_project\public\Assets\pexels-emma-bauso-2253867.jpg");
+    url("C:\Users\HP\Documents\GitHub\dj_project\public\Assets\pexels-emma-bauso-2253867.jpg");
   background-size: cover;
 }
-
 .CTA-intro {
   display: flex;
   width: 40%;
@@ -40,11 +39,13 @@
   align-items: end;
   justify-content: center;
   position: relative;
-  bottom: -10dvh;
+  bottom: -15dvh;
+  height:fit-content;
+  padding:5px 0;
 }
 .CTA-Video {
-  width: 30vh;
-  height: 40vh;
+  width: 360px;
+  height: 460px;
   border: 1px black solid;
   background-color: grey;
 }
