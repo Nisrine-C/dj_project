@@ -1,0 +1,40 @@
+.container-test {
+  padding: calc(100% / 18) calc(100% / 40);
+  position: relative;
+  z-index: 2;
+  background: white;
+}
+.test-header {
+  display: flex;
+  font-size: 35px;
+  justify-content: end;
+  margin-right: 10vh;
+}
+.testimonials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.test-arrow {
+  width: 5dvh;
+  max-height: 50px;
+}
+
+.testimonial-place {
+  width: 80%;
+}
+.testimomial-1,
+.testimomial-2,
+.testimomial-3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.test1-picture img {
+  background-size: cover;
+  max-height: 250px;
+  max-width: 250px;
+}

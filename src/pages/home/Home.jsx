@@ -1,4 +1,6 @@
 import "./Home.css";
+import "./components/Section_2/Testimonials.css";
+import "./components/Section_3/CTA.css";
 import SectionAboutArtist from "./components/Section_1/SectionAboutArtist";
 
 const Home = () => {
@@ -36,12 +38,17 @@ const Home = () => {
             </svg>
           </div>
 
-          <div className="testimonial-Setion">
+          <div className="testimonial-place">
             <div className="testimomial-1">
               <div className="test1-picture">
                 <img src="Assets\test-pic.jpg" alt="" />
               </div>
-              <div className="test1-word"></div>
+              <div className="test1-word">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Tenetur numquam expedita, sint consequatur, soluta sed officia
+                asperiores error illum voluptates ut sit, rem accusantium
+                doloribus.
+              </div>
             </div>
           </div>
           <div className="test-arrow">
