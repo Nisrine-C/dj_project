@@ -39,7 +39,7 @@ const Gallery = () => {
             <div className="gallery">
                 {data.map((item,index)=>{
                     return(
-                        <div className="image" key={index} variants={variants} animate="default">
+                        <div className="image" key={index} >
                             <img src={item.image}/>
                         </div>
                     )
