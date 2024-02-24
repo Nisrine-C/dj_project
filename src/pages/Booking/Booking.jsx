@@ -7,6 +7,7 @@ const Booking = () => {
   return (
     <div className="Booking">
       <h1>Book your DJ</h1>
+
       <div className="container">
         <Tuto />
       </div>

@@ -95,7 +95,6 @@ const Home = () => {
       <div className="container">
         <SectionGallery />
       </div>
-      
     </div>
   );
 };

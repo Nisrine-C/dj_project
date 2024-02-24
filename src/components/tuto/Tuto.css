@@ -1,0 +1,20 @@
+.Tuto {
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10vw;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-img {
+  background-color: gray;
+  width: 300px;
+  height: 200px;
+}
