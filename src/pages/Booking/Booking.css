@@ -1,12 +1,12 @@
 .Booking {
-  background: url("C:\Users\HP\Documents\GitHub\dj_project\public\Assets\pexels-tara-winstead-6479555 (1).jpg");
+  background: url("C:\Users\DELL\OneDrive\Documents\GitHub\dj_project\public\Assets\calendar.jpg");
   background-repeat: none;
   background-size: content;
   height: fit-content;
 }
 
 .title-container {
-  height: 50dvh !important;
+  height: 40dvh !important;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,7 +18,11 @@
 
 .tutorials {
   background: var(--background-color);
-  height: 100vh;
+  height: 55dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .book-here {
