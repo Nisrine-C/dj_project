@@ -1,11 +1,17 @@
 import "./Booking.css";
-import Calendar from "../../background-images/high-angle-desk-arrangement.jpg";
+
 
 
 const Booking = () => {
   return (
-    <div className="Booking" style={{ backgroundImage: `url(${Calendar})` }}>
+    <div className="Booking" >
+      <h1>Book your DJ</h1>
+      <div className="content">
 
+      </div>
+      <div className="content">
+        
+      </div>
     </div>
   );
 };

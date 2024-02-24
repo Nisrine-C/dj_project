@@ -1,8 +1,11 @@
-
 .Booking{
     height:100dvh;
-    background: var(--background-color);
+    background: url("C:\Users\HP\Documents\GitHub\dj_project\public\Assets\pexels-tara-winstead-6479555 (1).jpg");
     background-repeat: none;
     background-size: cover;
+    display:flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
