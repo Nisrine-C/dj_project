@@ -2,7 +2,7 @@
   padding: calc(100% / 18) calc(100% / 40);
   position: relative;
   z-index: 2;
-  background: white;
+  background: var(--background-color);
 }
 .test-header {
   display: flex;

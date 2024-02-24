@@ -3,6 +3,7 @@ import "./components/Section_2/Testimonials.css";
 import "./components/Section_3/CTA.css";
 import SectionAboutArtist from "./components/Section_1/SectionAboutArtist";
 import SectionGallery from "./components/Section_4/SectionGalley";
+import Image from "../../27229350_1_mei_7.svg";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
         </div>
       </div>
       <div className="container">
+        <img className="imagetest" src={Image}></img>
         <SectionAboutArtist />
       </div>
       <div className="hr_div">
@@ -94,6 +96,7 @@ const Home = () => {
       <div className="container">
         <SectionGallery />
       </div>
+      
     </div>
   );
 };

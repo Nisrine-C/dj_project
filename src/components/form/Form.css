@@ -3,7 +3,7 @@
     font-size: 18px;
     height: 35px;
     border-radius: 5px;
-    background: whitesmoke;
+    background: white;
     border-style: none;
     padding: 5px;
     flex-grow: 1;
@@ -14,7 +14,7 @@
     font-size: 18px;
     border-radius: 5px;
     height: 200px;
-    background: whitesmoke;
+    background: white;
     border-style: none;
     padding: 5px;
     flex-grow: 1;
@@ -61,7 +61,7 @@
 
 .btn:hover {
     cursor: pointer;
-    color: white;
+    color: var(--background-color);
 }
 
 .btn::before {
