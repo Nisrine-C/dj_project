@@ -21,7 +21,6 @@ const Home = () => {
         </div>
       </div>
       <div className="container">
-        <img className="imagetest" src={Image}></img>
         <SectionAboutArtist />
       </div>
       <div className="hr_div">
