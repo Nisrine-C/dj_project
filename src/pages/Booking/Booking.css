@@ -1,28 +1,42 @@
 .Booking{
-    background: url("C:\Users\HP\Documents\GitHub\dj_project\public\Assets\pexels-tara-winstead-6479555 (1).jpg");
-    background-repeat: none;
-    background-size: content;
     height:fit-content;
 }
 
 .title-container{
-    height: 50dvh !important;
+    height: 60dvh;
+    position:relative;
+    z-index:1;
+    width:100%;
+    background: transparent;
+    background-repeat: none;
+    background-size: cover;
     display:flex;
     justify-content: center;
     align-items: center;
 }
 
+.title-container img{
+    position:fixed;
+    z-index: 0;
+
+    width:100dvw;
+}
+
 .title-container h1 {
     color:white;
-
+    z-index: 1;
 }
 
 .tutorials{
     background:var(--background-color);
     height:100vh;
+    position: relative;
+    z-index:1;
 }
 
 .book-here{
     background:var(--background-color);
     height:100vh;
+    position:relative;
+    z-index:1;
 }
