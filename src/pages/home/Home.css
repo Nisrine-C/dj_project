@@ -1,18 +1,18 @@
 .Home {
-  background: white;
+  background: var(--background-color) ;
   height: fit-content;
 }
 .hr_div{
   display: flex;
   justify-content: center;
-  background-color: white;
+  background-color: var(--background-color);
   position:relative;
   z-index:4;
   padding-top: 30px
 }
 hr{
   background:black;
-border: none;
+  border: none;
   width:70%;
   height:1px;
 }
@@ -71,6 +71,8 @@ border: none;
   position: relative;
   z-index: 2;
   align-items: center;
-  background: white;
+  background: var(--background-color) !important;
   padding: calc(50% / 10) 0 0 0;
+  width:100%;
 }
+
