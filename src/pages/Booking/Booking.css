@@ -1,19 +1,29 @@
 .Booking {
-  background: url("C:\Users\DELL\OneDrive\Documents\GitHub\dj_project\public\Assets\calendar.jpg");
-  background-repeat: none;
-  background-size: content;
   height: fit-content;
 }
 
 .title-container {
-  height: 40dvh !important;
+  height: 60dvh;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  background: transparent;
+  background-repeat: none;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.title-container img {
+  position: fixed;
+  z-index: 0;
+  width: 100dvw;
+}
+
 .title-container h1 {
   color: white;
+  z-index: 1;
 }
 
 .tutorials {
@@ -23,9 +33,21 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  position: relative;
+  z-index: 1;
 }
 
 .book-here {
   background: var(--background-color);
   height: 100vh;
+.book-here{
+    background:var(--calendar-background);
+    height:700px;
+    width:100%;
+    border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display:grid;
+    grid-template-columns: 1.1fr .9fr;
+    column-gap: 5px;
+    padding: 15px;
 }

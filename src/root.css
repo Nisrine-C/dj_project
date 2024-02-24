@@ -1,5 +1,6 @@
 :root{
   --background-color:rgb(245, 245, 245);
+  --calendar-background:rgb(250, 231, 214);
 }
 
 
@@ -14,4 +15,8 @@
 
 a:link {
   text-decoration: none;
+}
+
+img {
+  pointer-events: none;
 }
