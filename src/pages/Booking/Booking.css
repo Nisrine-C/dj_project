@@ -38,16 +38,13 @@
 }
 
 .book-here {
-  background: var(--background-color);
-  height: 100vh;
-.book-here{
-    background:var(--calendar-background);
-    height:700px;
-    width:100%;
-    border-radius: 20px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    display:grid;
-    grid-template-columns: 1.1fr .9fr;
-    column-gap: 5px;
-    padding: 15px;
+  background: var(--calendar-background);
+  height: 700px;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  column-gap: 5px;
+  padding: 15px;
 }
