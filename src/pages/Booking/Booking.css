@@ -1,4 +1,8 @@
+
 .Booking{
-    height:100dvh
+    height:100dvh;
+    background: var(--background-color);
+    background-repeat: none;
+    background-size: cover;
 }
 
