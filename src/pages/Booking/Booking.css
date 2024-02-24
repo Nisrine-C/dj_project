@@ -1,11 +1,28 @@
 .Booking{
-    height:100dvh;
     background: url("C:\Users\HP\Documents\GitHub\dj_project\public\Assets\pexels-tara-winstead-6479555 (1).jpg");
     background-repeat: none;
-    background-size: cover;
-    display:flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+    background-size: content;
+    height:fit-content;
 }
 
+.title-container{
+    height: 50dvh !important;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-container h1 {
+    color:white;
+
+}
+
+.tutorials{
+    background:var(--background-color);
+    height:100vh;
+}
+
+.book-here{
+    background:var(--background-color);
+    height:100vh;
+}
