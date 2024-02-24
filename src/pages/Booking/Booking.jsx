@@ -16,9 +16,11 @@ const Booking = () => {
       <div className="tutorials">
         <Tuto/>
       </div>
-        <div className="book-here">
-          <Calendar/>
-          <BookingForm/>
+        <div className="book-here-wrapper">
+          <div className="book-here">
+            <Calendar/>
+            <BookingForm/>
+          </div>
         </div>
     </div>
   );
