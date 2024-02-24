@@ -3,15 +3,15 @@
   z-index: 2;
   background: var(--background-color);
   padding: calc(50% / 10) 0 0 0;
-  height:650px
+  height: 650px;
 }
 
 .CTA-Section {
   display: flex;
   flex-direction: row;
-  height:450px;
+  height: 450px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
-    url("C:\Users\HP\Documents\GitHub\dj_project\public\Assets\pexels-emma-bauso-2253867.jpg");
+    url("C:\Users\DELL\OneDrive\Documents\GitHub\dj_project\public\Assets\pexels-emma-bauso-2253867.jpg");
   background-size: cover;
 }
 .CTA-intro {
@@ -40,8 +40,8 @@
   justify-content: center;
   position: relative;
   bottom: -15dvh;
-  height:fit-content;
-  padding:5px 0;
+  height: fit-content;
+  padding: 5px 0;
 }
 .CTA-Video {
   width: 360px;

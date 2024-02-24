@@ -29,7 +29,7 @@ const Navbar = () => {
 
         <div className="logo-section">
           <div className="logo">
-            <img srcSet="Assets/new_logo_white_1.png" />
+            <img srcSet="Assets\placeholder-footer.png" />
           </div>
 
           <div className="minilogo-section">
