@@ -1,7 +1,7 @@
 import "./Tuto.css";
 
 const Tuto = () => {
-  return <div className="section-about-artist"></div>;
+  return <div className="Tuto"></div>;
 };
 
 export default Tuto;
