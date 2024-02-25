@@ -19,6 +19,7 @@
   position: fixed;
   z-index: 0;
   width: 100dvw;
+  filter:grayscale(30%)
 }
 
 .title-container h1 {
@@ -28,13 +29,14 @@
 
 .tutorials {
   background: var(--background-color);
-  height: 55dvh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   position: relative;
   z-index: 1;
+  height: fit-content;
+  padding: calc(50% / 10) calc(50% / 8);
 }
 
 .book-here-wrapper{
@@ -42,7 +44,7 @@
     height:fit-content;
     position:relative;
     z-index:1;
-    padding: calc(50% / 10) calc(50% / 6);
+    padding: calc(50% / 10) calc(50% / 4);
 }
 
 .book-here{
