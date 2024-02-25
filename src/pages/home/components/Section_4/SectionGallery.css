@@ -1,6 +1,6 @@
 .section-gallery{
     display:grid;
-    grid-template-columns: repeat(2,50%);
+    grid-template-columns: 1.1fr .9fr;
     column-gap: 15px;
     padding:0 calc(50%/8 ) calc(50%/8 ) calc(50%/8 );
 }
