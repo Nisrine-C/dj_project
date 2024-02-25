@@ -15,18 +15,11 @@
     align-items: center;
 }
 
-<<<<<<< Updated upstream
-.title-container img{
-    position:fixed;
-    z-index: 0;
-    width:100dvw;
-=======
 .title-container img {
   position: fixed;
   z-index: 0;
   width: 100dvw;
   filter:grayscale(30%)
->>>>>>> Stashed changes
 }
 
 .title-container h1 {
@@ -34,13 +27,6 @@
     z-index: 1;
 }
 
-<<<<<<< Updated upstream
-.tutorials{
-    background:var(--background-color);
-    height:100vh;
-    position: relative;
-    z-index:1;
-=======
 .tutorials {
   background: var(--background-color);
   display: flex;
@@ -51,7 +37,6 @@
   z-index: 1;
   height: fit-content;
   padding: calc(50% / 10) calc(50% / 8);
->>>>>>> Stashed changes
 }
 
 .book-here-wrapper{

@@ -15,18 +15,11 @@ const Booking = () => {
       <div className="tutorials">
         <Tuto/>
       </div>
-<<<<<<< Updated upstream
         <div className="book-here-wrapper">
           <div className="book-here">
-            <Calendar/>
+            <CalendarComponent/>
             <BookingForm/>
           </div>
-=======
-      <div className="book-here-wrapper">
-        <div className="book-here">
-          <CalendarComponent />
-          <BookingForm />
->>>>>>> Stashed changes
         </div>
     </div>
   );
