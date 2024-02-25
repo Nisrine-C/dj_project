@@ -11,9 +11,10 @@
   flex-direction: row;
   height: 450px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
-    url("C:\Users\DELL\OneDrive\Documents\GitHub\dj_project\public\Assets\pexels-emma-bauso-2253867.jpg");
+    url("C:\Users\HP\Documents\GitHub\dj_project\public\Assets\pexels-emma-bauso-2253867.jpg");
   background-size: cover;
 }
+
 .CTA-intro {
   display: flex;
   width: 40%;
@@ -25,14 +26,17 @@
   flex-direction: column;
   margin: 0px 10vh;
 }
+
 .CTA-head {
   font-size: 50px;
   margin-bottom: 3vh;
   font: bolder;
 }
+
 .CTA-pg {
   font-size: 25px;
 }
+
 .CTA-SideVideo {
   width: 40%;
   display: flex;
@@ -43,6 +47,7 @@
   height: fit-content;
   padding: 5px 0;
 }
+
 .CTA-Video {
   width: 360px;
   height: 460px;
