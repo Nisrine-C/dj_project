@@ -1,6 +1,6 @@
 import "./Booking.css";
 import Tuto from "../../components/tuto/Tuto";
-import Calendar from "../../components/calendar/Calendar";
+import CalendarComponent from "../../components/calendar/CalendarComponent";
 import BookingForm from "../../components/booking-form/BookingForm";
 
 const Booking = () => {
@@ -8,6 +8,7 @@ const Booking = () => {
     <div className="Booking">
       <div className="title-container">
         <img src="Assets/Booking.jpg" />
+        <img src="Assets/pexels-tara-winstead-647955.jpg" />
         <h1>Book your DJ</h1>
       </div>
       <div className="tutorials">
@@ -15,7 +16,7 @@ const Booking = () => {
       </div>
       <div className="book-here-wrapper">
         <div className="book-here">
-          <Calendar />
+          <CalendarComponent />
           <BookingForm />
         </div>
       </div>

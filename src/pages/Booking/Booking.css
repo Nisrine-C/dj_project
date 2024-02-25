@@ -19,6 +19,7 @@
   position: fixed;
   z-index: 0;
   width: 100dvw;
+  filter: grayscale(30%);
 }
 
 .title-container h1 {
@@ -43,7 +44,7 @@
   height: fit-content;
   position: relative;
   z-index: 1;
-  padding: calc(50% / 10) calc(50% / 6);
+  padding: calc(50% / 10) calc(50% / 4);
 }
 
 .book-here {

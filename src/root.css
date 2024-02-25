@@ -1,6 +1,8 @@
 :root {
   --background-color: rgb(245, 245, 245);
   --calendar-background: rgb(250, 231, 214);
+  --calendar-secondary: rgb(207, 192, 178);
+  --calendar-accent: rgb(252, 193, 139);
 }
 
 * {
