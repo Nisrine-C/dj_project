@@ -1,54 +1,50 @@
-.Booking{
-    height:fit-content;
+.Booking {
+  height: fit-content;
 }
 
-.title-container{
-    height: 60dvh;
-    position:relative;
-    z-index:1;
-    width:100%;
-    background: transparent;
-    background-repeat: none;
-    background-size: cover;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+.title-container {
+  height: 60dvh;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  background: transparent;
+  background-repeat: none;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.title-container img{
-    position:fixed;
-    z-index: 0;
-    width:100dvw;
+.title-container img {
+  position: fixed;
+  z-index: 0;
+  width: 100dvw;
 }
 
 .title-container h1 {
-    color:white;
-    z-index: 1;
+  color: white;
+  z-index: 1;
 }
 
-.tutorials{
-    background:var(--background-color);
-    height:100vh;
-    position: relative;
-    z-index:1;
+.tutorials {
+  background: var(--background-color);
+  height: 55dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
 }
 
-.book-here-wrapper{
-    background:var(--background-color);
-    height:fit-content;
-    position:relative;
-    z-index:1;
-    padding: calc(50% / 10) calc(50% / 6);
-}
-
-.book-here{
-    background:var(--calendar-background);
-    height:700px;
-    width:100%;
-    border-radius: 20px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    display:grid;
-    grid-template-columns: 1.1fr .9fr;
-    column-gap: 5px;
-    padding: 15px;
+.book-here {
+  background: var(--calendar-background);
+  height: 700px;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  column-gap: 5px;
+  padding: 15px;
 }
