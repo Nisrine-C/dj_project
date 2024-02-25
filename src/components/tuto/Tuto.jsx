@@ -8,9 +8,7 @@ const Tuto = () => {
       </div>
       <div className="cards">
         <div className="card">
-          <div className="card-header">
-            <h3>1. Check Your date</h3>
-          </div>
+          <div className="card-header">1. Check Your date</div>
           <div className="card-img">
             <img srcSet="image1" alt="" />
           </div>
@@ -20,9 +18,7 @@ const Tuto = () => {
         </div>
 
         <div className="card">
-          <div className="card-header">
-            <h3>2. Fill Out the Form</h3>
-          </div>
+          <div className="card-header">2. Fill Out the Form</div>
           <div className="card-img">
             <img srcSet="image2" alt="" />
           </div>
@@ -32,14 +28,12 @@ const Tuto = () => {
         </div>
 
         <div className="card">
-          <div className="card-header">
-            <h3>3. We will Get back to you</h3>
-          </div>
+          <div className="card-header">3. We will Get back to you</div>
           <div className="card-img">
             <img srcSet="image3" alt="" />
           </div>
           <div className="card-text">
-            We will get back to you in less than 24 hours!
+            We will contact you in less than 24 hours!
           </div>
         </div>
       </div>

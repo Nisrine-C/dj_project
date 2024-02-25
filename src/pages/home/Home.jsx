@@ -42,8 +42,6 @@ const Home = () => {
                 <path d="M356.47,41c4.45,0,8.9,1.11,12.23,4.45a16.12,16.12,0,0,1,0,23.35L180.77,256.7,368.7,444.62A16.51,16.51,0,0,1,345.35,468l-199-199a16.12,16.12,0,0,1,0-23.35l199-200.15A14.28,14.28,0,0,1,356.47,41Z"></path>
               </svg>
             </div>
-
-            <a className="right">Previous</a>
           </div>
           <div className="testimonial-place">
             <div className="testimomial-1">
@@ -60,7 +58,6 @@ const Home = () => {
           </div>
           .
           <div className="test-arrow">
-            <a>Next</a>
             <div className="arrow">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

@@ -11,29 +11,35 @@
 .cards {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  gap: 10vw;
-}
-.card-header {
-  font-size: 28px;
-  text-align: center;
+  align-items: stretch;
+  gap: 2vw;
 }
 
 .card {
   display: flex;
   flex-direction: column;
   width: 25%;
-  height: 25%;
+  height: fit-content;
 }
-
-.card-text {
-  font-size: 25px;
+.card-header {
+  font-size: 24px;
   text-align: center;
+  flex-grow: 1;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .card-img {
   background-color: gray;
   width: 100%;
-  min-height: 300px;
+  min-height: 250px;
   border-radius: 25px;
+}
+.card-text {
+  font-size: 22px;
+  text-align: center;
+  flex-grow: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
