@@ -37,14 +37,22 @@
   z-index: 1;
 }
 
-.book-here {
-  background: var(--calendar-background);
-  height: 700px;
-  width: 100%;
-  border-radius: 20px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
-  column-gap: 5px;
-  padding: 15px;
+.book-here-wrapper{
+    background:var(--background-color);
+    height:fit-content;
+    position:relative;
+    z-index:1;
+    padding: calc(50% / 10) calc(50% / 6);
+}
+
+.book-here{
+    background:var(--calendar-background);
+    height:700px;
+    width:100%;
+    border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display:grid;
+    grid-template-columns: 1.1fr .9fr;
+    column-gap: 5px;
+    padding: 15px;
 }
