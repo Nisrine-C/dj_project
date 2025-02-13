@@ -49,14 +49,3 @@ const Form = () => {
 }
 
 export default Form;
-
-/*
-<label>Enter your age:
-<input 
-        type="text" 
-        name="username" 
-        value={inputs.username || ""} 
-        onChange={handleChange}
-      />
-</label>
-*/ 
